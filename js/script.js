@@ -43,7 +43,7 @@ class Produto {
 
             let imgEdit = document.createElement('img');
             imgEdit.src = 'img/botao-editar.png';
-            imgEdit.setAttribute('onclick', 'produto.preparaEditacao('+ JSON.stringify(this.arrayProdutos[i]) +')')
+            imgEdit.setAttribute('onclick', 'produto.preparaEditacao(' + JSON.stringify(this.arrayProdutos[i]) + ')')
 
             let imgDelete = document.createElement('img');
             imgDelete.src = 'img/excluir.png';
